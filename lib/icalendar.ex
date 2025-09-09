@@ -135,7 +135,7 @@ defmodule ICalendar do
     },
     rsvp: %{value: :boolean},
     sent_by: %{value: :cal_address},
-    tzid: %{matches: ~r/^\//},
+    tzid: %{matches: ~s/^\//},
     value: %{
       values: [:binary, :boolean, :cal_address, :date, :date_time,
                :duration, :float, :integer, :period, :recur, :text,
